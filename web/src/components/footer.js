@@ -124,6 +124,22 @@ const Footer = ({ siteTitle }) => (
                 YouTube
               </a>
             </li>
+            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="https://faster-steam.slack.com"
+                className="no-underline hover:underline text-gray-800 hover:text-orange-500"
+              >
+                Slack
+              </a>
+            </li>
+            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="https://discord.gg/TZ4Y93d2SY"
+                className="no-underline hover:underline text-gray-800 hover:text-orange-500"
+              >
+                Discord
+              </a>
+            </li>
           </ul>
         </div>
         <div className="flex-1">
