@@ -34,50 +34,54 @@ const Footer = ({ siteTitle }) => (
         </div>
 
         <div className="flex-1">
-          <p className="uppercase text-gray-500 md:mb-6">Links</p>
+          <p className="uppercase text-gray-500 md:mb-6">Join</p>
           <ul className="list-reset mb-6">
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="https://www.tailwindtoolbox.com/templates/landing-page">
+              <a href="http://bit.ly/FASTERFUNK21">
                 <span className="hover:underline text-gray-800 hover:text-orange-500">
-                  Page theme
+                  FASTER Education
+                </span>
+              </a>
+            </li>
+          <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="http://bit.ly/FASTERPROS21J">
+                <span className="hover:underline text-gray-800 hover:text-orange-500">
+                  FASTER PROS
                 </span>
               </a>
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="https://sanity.io/docs"
-                className="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >
-                Sanity Help
-              </a>
-            </li>
-            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="https://slack.sanity.io"
-                className="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >
-                Slack Community
+              <a href="http://bit.ly/FASTERFRESHMt">
+                <span className="hover:underline text-gray-800 hover:text-orange-500">
+                  FASTER FRESH
+                </span>
               </a>
             </li>
           </ul>
         </div>
         <div className="flex-1">
-          <p className="uppercase text-gray-500 md:mb-6">Legal</p>
+          <p className="uppercase text-gray-500 md:mb-6">Archive</p>
           <ul className="list-reset mb-6">
           <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
-                Code of Conduct
+              <a 
+              href=""><span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
+                Speakers
               </span>
+              </a>
+            </li>
+          <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a 
+              href="https://bit.ly/FASTERGCalendarPub"><span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
+                Events
+              </span>
+              </a>
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
-                Terms
+              <a 
+              href="https://github.com/fastersteam/fastersv.github.io/tree/master/archive"><span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
+                Past FASTERCONs
               </span>
-            </li>
-            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
-                Privacy
-              </span>
+              </a>
             </li>
           </ul>
         </div>
@@ -154,8 +158,16 @@ const Footer = ({ siteTitle }) => (
               </Link>
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+              <Link
+                to="/media"
+                className="no-underline hover:underline text-gray-800 hover:text-orange-500"
+              >
+                Media
+              </Link>
+            </li>
+            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://www.sanity.io/contact"
+                href="mailto:contactus@faser-steam.org"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 Contact
